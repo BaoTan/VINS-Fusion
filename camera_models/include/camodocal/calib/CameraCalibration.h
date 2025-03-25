@@ -1,9 +1,10 @@
 #ifndef CAMERACALIBRATION_H
 #define CAMERACALIBRATION_H
 
-#include <opencv2/core/core.hpp>
-
 #include "camodocal/camera_models/Camera.h"
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/imgproc/types_c.h>
 
 namespace camodocal
 {
